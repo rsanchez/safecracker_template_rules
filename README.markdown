@@ -8,8 +8,6 @@ Add form validation rules inside the template using template tags.
 
 ## Usage
 
-Add a field to your SafeCracker form, whose name is your SafeCracker File field name with _prefix at the end.
-
 	{exp:safecracker channel="site" return="my/form/ENTRY_ID"}
 		
 		{set_rules}
